@@ -1,0 +1,23 @@
+module half_adder(sum,cout,a,b);
+input a,b;
+output sum,cout;
+
+xor(sum,a,b);
+and(cout,a,b);
+
+endmodule
+
+module full_adder(sum,cout,a,b,cin);
+input a,b,cin;
+output cout ,sum ;
+
+wire w1,w2,w3;
+
+half_adder h1(w1,w2,a,b);
+half_adder h2(sum,w3,w1,cin);
+
+or(cout,w2,w3);
+
+endmodule
+
+

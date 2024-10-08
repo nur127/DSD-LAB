@@ -1,0 +1,336 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vadder
+Z0 !s110 1728302863
+!i10b 1
+!s100 GE8ddb<b6G88dA<l50TJR0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IVW@ZLBZFDKAFG:n[[j:bB2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/DSD Lab
+Z4 w1728302847
+Z5 8D:\DSD Lab\adder.v
+Z6 FD:\DSD Lab\adder.v
+!i122 0
+L0 1 6
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1728302863.000000
+Z9 !s107 D:\DSD Lab\adder.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|D:\DSD Lab\adder.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vadder_subtractor
+Z13 !s110 1728358231
+!i10b 1
+!s100 J_KhRaQL8ldAcRK<XEFGN1
+R1
+I:z;UK:oc;ni[mn?>D=fBe3
+R2
+R3
+Z14 w1728358223
+Z15 8D:\DSD Lab\masterslave.v
+Z16 FD:\DSD Lab\masterslave.v
+!i122 40
+L0 134 21
+R7
+r1
+!s85 0
+31
+Z17 !s108 1728358231.000000
+!s107 D:\DSD Lab\masterslave.v|
+Z18 !s90 -reportprogress|300|-work|work|-stats=none|D:\DSD Lab\masterslave.v|
+!i113 1
+R11
+R12
+Xadder_v_unit
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+R0
+V<3]?59?edDHVk_OnZchEU0
+r1
+!s85 0
+!i10b 1
+!s100 dh35A5KBb1LS3ZPX:QAHz1
+I<3]?59?edDHVk_OnZchEU0
+!i103 1
+S1
+R3
+R4
+R5
+R6
+!i122 0
+L0 6 0
+R7
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vasyn
+R13
+!i10b 1
+!s100 9LPah_Kj9Ya9:`I>c[7WW1
+R1
+I]mB4ac1]XJY^_Y^7<AFZ22
+R2
+R3
+R14
+R15
+R16
+!i122 40
+L0 68 13
+R7
+r1
+!s85 0
+31
+R17
+Z19 !s107 D:\DSD Lab\masterslave.v|
+R18
+!i113 1
+R11
+R12
+vbcd_to_xs3
+!s110 1728310459
+!i10b 1
+!s100 oGR?1mgnbLPjVX52nFh7J2
+R1
+Iz441QfkB:mSXf`egh<mQl2
+R2
+R3
+w1728310455
+8D:/DSD Lab/bcd_to_xs3.v
+FD:/DSD Lab/bcd_to_xs3.v
+!i122 9
+L0 1 29
+R7
+r1
+!s85 0
+31
+!s108 1728310459.000000
+!s107 D:/DSD Lab/bcd_to_xs3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/DSD Lab/bcd_to_xs3.v|
+!i113 1
+R11
+R12
+vfull_adder
+R13
+!i10b 1
+!s100 MU3BA6VlIz^7a_?0i;FY43
+R1
+ID8QMoVB:T<_m[2DaCC@]93
+R2
+R3
+R14
+R15
+R16
+!i122 40
+L0 121 12
+R7
+r1
+!s85 0
+31
+R17
+R19
+R18
+!i113 1
+R11
+R12
+vhalf_adder
+R13
+!i10b 1
+!s100 iKLIK0oNg?TBkQ]LzCoPR2
+R1
+IjzYLW`i?]dUg]kIVfJDnW3
+R2
+R3
+R14
+R15
+R16
+!i122 40
+L0 112 8
+R7
+r1
+!s85 0
+31
+R17
+R19
+R18
+!i113 1
+R11
+R12
+vjk
+R13
+!i10b 1
+!s100 LCO4TYcNGf^fZGoZA1n_b1
+R1
+I5WaM2CFjGY2S^a3GDALFN3
+R2
+R3
+R14
+R15
+R16
+!i122 40
+L0 1 18
+R7
+r1
+!s85 0
+31
+R17
+R19
+R18
+!i113 1
+R11
+R12
+vmodtentest
+R13
+!i10b 1
+!s100 IWcidzXRPRd5h2a]BjJle1
+R1
+I7@2YDe?=gX56ONC=>i7_T1
+R2
+R3
+R14
+R15
+R16
+!i122 40
+L0 82 29
+R7
+r1
+!s85 0
+31
+R17
+R19
+R18
+!i113 1
+R11
+R12
+vtestadder
+R13
+!i10b 1
+!s100 bzM0LDDbQG?3fXP6_l_fH0
+R1
+I@DTU`dk?i_ORDjIUH2fem3
+R2
+R3
+R14
+R15
+R16
+!i122 40
+L0 156 19
+R7
+r1
+!s85 0
+31
+R17
+R19
+R18
+!i113 1
+R11
+R12
+vUP_DOWN_SIMULATION
+R13
+!i10b 1
+!s100 4<iJ7]:MY@d`cTFS1;K5f2
+R1
+Ii4:9]g;?T22g90WA<jTj73
+R2
+R3
+R14
+R15
+R16
+!i122 40
+L0 40 27
+R7
+r1
+!s85 0
+31
+R17
+R19
+R18
+!i113 1
+R11
+R12
+n@u@p_@d@o@w@n_@s@i@m@u@l@a@t@i@o@n
+vupdown
+R13
+!i10b 1
+!s100 AElQG;EDgO79I`dZc4Rfc0
+R1
+I^Ec0hjgo29l^0Diac;d=?1
+R2
+R3
+R14
+R15
+R16
+!i122 40
+L0 20 19
+R7
+r1
+!s85 0
+31
+R17
+R19
+R18
+!i113 1
+R11
+R12
+vupspractice
+R13
+!i10b 1
+!s100 T0FJ0=nalJaG_aKz^mk<E3
+R1
+I4Wh?^6Whm10In;7Kmm7c<0
+R2
+R3
+R14
+R15
+R16
+!i122 40
+L0 177 15
+R7
+r1
+!s85 0
+31
+R17
+R19
+R18
+!i113 1
+R11
+R12
+vupstestbanch
+R13
+!i10b 1
+!s100 jHBWj[6>@RT0H@FP_Ug`;2
+R1
+IM9kc?2LJd92d8E0<UFnnS3
+R2
+R3
+R14
+R15
+R16
+!i122 40
+L0 193 27
+R7
+r1
+!s85 0
+31
+R17
+R19
+R18
+!i113 1
+R11
+R12
